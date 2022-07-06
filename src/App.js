@@ -14,7 +14,7 @@ function App() {
 
   
   useEffect(() => {
-    axios.get('https://v6.exchangerate-api.com/v6/a88149a1a650724bd9d0b9c8/latest/USD')
+    axios.get('https://v6.exchangerate-api.com/v6/cec12839d52cd42b56fabfe5/latest/USD')
       .then(response => {
         setRates(response.data.conversion_rates);
       })
